@@ -1,1 +1,1 @@
-# data-visualitation-python
+# data-visualization-python
