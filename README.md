@@ -3,6 +3,9 @@
 ## Prerequesisted
 
 - Python 3.7
+- Virtual Environment
+- Matplotlib
+- Pandas
 
 ## Instatallation
 
@@ -26,26 +29,40 @@ Install pip3 package manager
 sudo apt install python3-pip
 ```
 
-Install and activated virtual environment.
+Install Virtual Environment.
 
 ```
-python3.7 -m venv work3.7
 source work3.7/bin/activate
+```
+
+Activate virtual environment
+
+```
+work3.7/bin/activate
+
 ```
 
 Install used package.
 
 ```
-pip install numpy scipy matplotlib
+pip install numpy scipy matplotlib pandas
 ```
 
 ## Running the App
 
-Ensure virtual environment is activad
+Open shell or command prompt terminal
 
-Go to directory path
+Go to work3.7 root directory
 
-Run the app
+Activate virtual environment
+
+```
+work3.7/bin/activate
+```
+
+With the current terminal tab , go to application directory path
+
+Run the application
 
 ```
 py {filename}.py
