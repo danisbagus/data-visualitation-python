@@ -6,6 +6,7 @@
 - Virtual Environment
 - Matplotlib
 - Pandas
+- Requests
 
 ## Instatallation
 
@@ -45,7 +46,7 @@ work3.7/bin/activate
 Install used package.
 
 ```
-pip install numpy scipy matplotlib pandas
+pip install numpy scipy matplotlib pandas requests
 ```
 
 ## Running the App
